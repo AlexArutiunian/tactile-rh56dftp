@@ -1,0 +1,6 @@
+Source copied from:
+  /home/alpc/humanoid/resources/g1/g1_description/inspire_hand/FTP_left_hand.urdf
+  /home/alpc/humanoid/resources/g1/g1_description/inspire_hand/FTP_right_hand.urdf
+  /home/alpc/humanoid/resources/g1/g1_description/meshes/*.STL referenced by those URDFs
+
+Copied for tactile/RH56DFTP work. Files are copied with no overwrite intent.

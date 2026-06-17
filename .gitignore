@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+generated/
+generated*/
+outputs/
+data/
+datasets/
+*.log
+*.jsonl
+*.csv
+
+*.tar
+*.tar.gz
+*.zip

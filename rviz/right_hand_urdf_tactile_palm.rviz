@@ -1,0 +1,55 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Class: rviz_default_plugins/Grid
+      Enabled: false
+      Name: Grid
+      Plane: XY
+      Plane Cell Count: 20
+      Cell Size: 0.02
+    - Class: rviz_default_plugins/RobotModel
+      Enabled: true
+      Name: Right Hand URDF
+      Description Source: Topic
+      Description Topic:
+        Value: /robot_description
+      Robot Description: robot_description
+      TF Prefix: ""
+      Update Interval: 0
+      Visual Enabled: true
+      Collision Enabled: false
+      Alpha: 0.62
+    - Class: rviz_default_plugins/MarkerArray
+      Enabled: true
+      Name: Tactile Contacts
+      Topic:
+        Value: /rh56/tactile_contacts
+  Enabled: true
+  Global Options:
+    Background Color: 248; 249; 251
+    Fixed Frame: right_wrist_yaw_link
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz_default_plugins/Interact
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+  Value: true
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 0.32
+      Focal Point:
+        X: 0.150
+        Y: 0.012
+        Z: 0.030
+      Name: Current View
+      Pitch: 0.0
+      Target Frame: right_wrist_yaw_link
+      Yaw: 1.5708
+Window Geometry:
+  Height: 1000
+  Width: 1600
