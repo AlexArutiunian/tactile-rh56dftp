@@ -81,7 +81,7 @@ python3 scripts/record_tactile_slide_session.py \
   --object-name cup_small \
   --session-name cup_small_slide_manual_01 \
   --out-root data/tactile_sessions \
-  --duration 25 \
+  --record-sec 25 \
   --baseline-sec 3
 ```
 
